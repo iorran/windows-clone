@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { FaWindows } from "react-icons/fa"
 
 export default function Home() {
   return (
@@ -16,7 +15,9 @@ export default function Home() {
         <div className="flex items-center bg-gray-800 w-screen h-14 p-4">
           
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-            <FaWindows />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+</svg>
           </button>
         </div>
       </div>
